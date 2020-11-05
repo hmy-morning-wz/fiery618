@@ -1,0 +1,27 @@
+{
+  "name": "webview",
+  "version": "2.2.2",
+  "description": "",
+  "dependencies": {
+    "@alipay/tracert-ta": "^0.3.24",
+    "@tklc/miniapp-tracker-sdk": "0.0.24",
+    "herculex": "0.2.15",
+    "mini-html-parser2": "^0.2.0",
+    "mini-types": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "ainstall": "npm install --registry=https://registry.npm.taobao.org",
+    "gitrev": "git rev-parse --short HEAD",
+    "build": "node ./scripts/beforeCompile.js && node ./scripts/lessCompile.js &&  tsc --types mini-types",
+    "less": "node ./scripts/lessCompile.js",
+    "updateVersion": "node ./scripts/beforeCompile.js",
+    "test": "ts-mocha -p test/tsconfig.json test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.allcitygo.com:8000/front/webview.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

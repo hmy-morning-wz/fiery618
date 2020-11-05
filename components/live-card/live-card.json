@@ -1,0 +1,6 @@
+{
+  "component": true,
+   "usingComponents": {
+    "tblive-card": "plugin://livePlugin/tblive-card"  
+  }
+}

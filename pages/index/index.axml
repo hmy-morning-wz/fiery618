@@ -1,0 +1,48 @@
+<import-sjs name="helper" from="../../utils/helper.sjs"/>
+<import src="./template/gifZone2.axml"/>
+<import src="./template/brandList.axml"/>
+<import src="./template/newuser.axml"/>
+<view class="container {{showTasklist || recordListShow ?'containerfix':''}}" style="background:{{color||'#3507B0'}}">
+  <block a:if="{{layoutOrder.indexOf('game')>-1}}">
+    <jump redBag="{{redBag}}" page="{{page}}" taskList2="{{taskList3}}"  topTask="{{topTask}}"  onGetAddress="onGetAddress"  onDrawTap="onDrawTap" onCloseRecordList="closeRecordList" onTopTaskTap="onTopTaskTap" onBallTap="onBallTap" onGiveupDouble="onGiveupDouble" onPreheatRedBagList="onPreheatRedBagList"  recordList="{{recordList}}" onShowRule="onShowRule" ref="currentStepRef"></jump>
+  </block>
+  <block a:else >
+    <view class="nogame-box"></view>
+  </block>
+  <!--<block a:if="{{showUrl}}"><web-view id="web-view-1" src="{{url}}" onMessage="onMessage"></web-view></block >-->
+  <block a:if="{{loadReady}}">
+    <!-- 非h5页面  -->
+    <view class="other-area">
+      <block  a:for="{{layoutOrder}}">
+        <block a:if="{{item!='live'}}">
+          <template a:if="{{index<=1 || bottomLoad}}" is="{{item}}" data="{{gifZone3,gifZoneTitle,reachMoney,gifReach,brandIdx,brandList,brandTitle,systemInfo}}"/>
+        </block>
+        <block a:else >
+          <view class="live-zone"  a:if="{{index<=1 || bottomLoad}}">            
+            <view class="three-bg">
+              <view class="bg-top"></view>
+              <view class="bg-mid"></view>
+              <view class="bg-bot"></view>
+            </view>
+            <view class="area-title">{{liveTitle||'直播区'}}</view>
+            <live-card liveList="{{liveList}}" />
+          </view>
+        </block>
+      </block>
+    </view>
+    <view class="index-bottom" onAppear="onBottomLoad"/>
+    <view class="preLoadImage-box" a:if="{{loadReady}}">
+      <view a:for="{{preLoadImages}}">
+        <image mode="scaleToFill" src="{{item}}"/>
+      </view>
+    </view>
+    <!--规则  -->
+    <popup-rule a:if="{{rule}}" show="{{rule}}" ruleText="{{ruleText}}" onModalClose="onRuleClose"></popup-rule>
+    <task-list a:if="{{showTasklist}}" show="{{showTasklist}}" onModalClose="onTaskClose" onGoTask="onGoTask"></task-list>
+    <draw-result a:if="{{drawResult}}" show="{{drawResult}}" onModalClick="onResultClick"></draw-result>
+    <popup-task  a:if="{{showPopInfo.isShowPop}}" showPopInfo="{{showPopInfo}}" onJoinMember="onJoinMember" onGoDouble="onGoDouble" onGoLeave="onGoLeave" onTaskPopClose="onTaskPopClose" onGoShare="onGoShare" onGoToShare="onGoToShare" onGetAddress="onGetAddress" onAddressUpdate="onAddressUpdate" onAddressComplete="onAddressComplete" onGetGift="onGetGift" onGoRiding="onGoRiding" onPopReceive="onPopReceive"></popup-task>
+    <loading-ball a:if="{{loading}}" opacity="{{loadingBallOpacity}}"></loading-ball> 
+    <!--  -->
+  </block >
+  <!-- 非h5页面  -->
+</view>

@@ -1,0 +1,10 @@
+{
+   "defaultTitle":"调试模式",
+  
+  "usingComponents": {   
+     "popup-rule": "/components/popup-rule/popup-rule",
+     "task-list": "/components/tasklist/tasklist",
+     "draw-result": "/components/draw-result/draw-result",
+     "jump": "/components/jump/index"
+  }
+}

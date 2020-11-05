@@ -1,0 +1,35 @@
+<view>
+<text>{{failMsg}}</text>
+<block a:if="{{debug}}">
+<view>
+   hello
+  </view>
+  <view>
+    {{userInfo}}
+  </view>
+   <view>
+    {{memberinfo}}
+  </view>
+<view>
+    {{notification}}
+  </view>
+  <button size="default" type="primary" onTap="onGetUserInfo">mtop 查询昵称和是否会员</button>
+
+    <button size="default" type="primary" onTap="onGoTmall">轻店入会</button>
+    <button size="default" type="primary" onTap="onMtopBindMember">mtop入会</button>
+
+    
+<view>剩余步数: {{userSteps.remainingSteps}}</view>
+<view>已走步数: {{userSteps.cellSteps}}</view>
+  <button size="default" type="primary" onTap="onMtopTest" >MTOP测试 </button>
+  <button size="default" type="primary" onTap="onShowTask" >任务列表 </button>
+  <button size="default" type="primary" onTap="onDraw" >抽奖测试 </button>
+  <button size="default" type="primary" onTap="onTaskCompleTap" >完成任务测试 </button>
+  <button size="default" type="primary" onTap="onGoTask" >去做任务测试 </button>
+  <button size="default" type="primary" onTap="onShowResult" >结果页面 </button>
+  </block>
+<button   a:if="{{remove}}" size="default" type="primary" onTap="onClearAll" >清除缓存 </button>
+  <popup-rule  a:if="{{rule}}" show="{{rule}}"  onModalClose="onRuleClose"></popup-rule>
+<task-list a:if="{{showTasklist}}"  show="{{showTasklist}}"  onModalClose="onTaskClose"  onGoTask="onGoTask"></task-list>
+
+</view>

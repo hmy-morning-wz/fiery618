@@ -1,0 +1,37 @@
+<import-sjs name="helper" from="../../utils/helper.sjs"/>
+<view class="jump-container">
+    <record-list a:if="{{recordShow}}" onHandleClose="handleClose" onAddress="address"  recordList="{{recordList}}"></record-list>
+    <view class="game-bg" style="background:url('{{page.image}}')no-repeat;background-size: 100% 100%;">
+        <view class="bubble{{index}}" a:for="{{taskList2}}"  onTap="handleShop" onAppear="onNopAppear" data-obj="{{item}}">
+            <view class="bg-circle">
+                <image class="logo" mode="scaleToFill" src="{{helper.crossImage(item.icon_img)}}"/>
+            </view>
+            <view class="title">{{item.name}}</view>
+        </view>
+        <view class="travel-bubble" a:if="{{topTask.length > 0}}" a:for="{{topTask.slice(0,1)}}" onAppear="onNopAppear" data-obj="{{item}}" onTap="handleTravel">
+            <image mode="scaleToFill" src="{{helper.crossImage(item.image)}}"/>
+            <view>送出行红包</view>
+        </view>
+        <view class="rule" data-spmId="${spmAPos}.${spmBPos}.c58532.d120951"  data-scm="${system}.${subsystem}.creative.ruleId.${traceId}"  onTap="handleRule">
+            <view>规则</view>
+        </view>
+        <image class="person" mode="scaleToFill" src="{{helper.crossImage('https://images.allcitygo.com/miniapp/202009/person1.png')}}"/>
+        <view class="content">
+            <view class="open" a:if="{{redBag.amount > 0}}">
+                <view class="prize-title">累计可领金额</view>
+                <view class="amount">
+                    <text>¥</text>{{redBag.amount}}</view>
+                <view class="giveup" onTap="hanldeGiveup" a:if="{{redBag.state == 1}}">放弃翻倍</view>
+            </view>
+            <image a:else class="envelopes {{!isfirstEnter ?'shaking':''}}" mode="scaleToFill" src="{{helper.crossImage('https://images.allcitygo.com/miniapp/202009/envelopes.png')}}"/>
+            <view class="record" onTap="handleRecord">中奖记录</view>
+            <view class="receive" onTap="handleReceive" a:if="{{redBag.state == 1}}">
+                <image src="{{helper.crossImage('https://images.allcitygo.com/miniapp/202009/double.png')}}"/>
+            </view>
+            <view class="receive" onTap="handleReceive" a:else>
+                <image a:if="{{isFirstClick}}" mode="scaleToFill" src="{{helper.crossImage('https://images.allcitygo.com/miniapp/202009/receive.png')}}"/>
+                <image  a:else mode="scaleToFill" src="{{helper.crossImage('https://images.allcitygo.com/miniapp/202009/receive2.png')}}"/>
+            </view>
+        </view>
+    </view>
+</view>

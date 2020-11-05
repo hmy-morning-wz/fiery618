@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",  
+    "pages/webview/webview",
+    "pages/my/my"  
+  ],
+  "plugins": {
+    "livePlugin": {
+      "version": "*",
+      "provider": "2021001127628117"
+    }
+  },
+  "window": {
+    "defaultTitle": "",
+    "enableDSL": "YES",
+    "enableJSC": "YES",
+    "enableKeepAlive": "NO",
+    "enableWK": "YES",
+    "nboffline": "sync",
+    "tinyPubRes": "YES",
+    "showDomain": "NO",
+    "backgroundColor": "#F5F5F5",
+    "titleBarColor": "#108EE9"
+  },
+  "ext": {
+    "env": "sit",
+    "appId": "2019121169870354",
+    "title": "支付宝绿色出行日",
+    "cityInfo": {
+      "cityName": "",
+      "cityCode": ""
+    },
+    "url": "https://render.alipay.com/p/c/tr-17fufu9ml4ow"
+  }
+}

@@ -1,0 +1,11 @@
+/node_modules/
+/.idea/
+/.tea/
+debug.log
+.settings/
+*.log
+package-lock.json
+/coverage/
+/.vscode/
+tsconfig.tsbuildinfo
+version.json

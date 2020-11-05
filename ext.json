@@ -1,0 +1,31 @@
+{
+  "extEnable": true,
+  "ext": {
+    "env":"sit",
+    "appId": "2019121169870354",
+    "title":  "支付宝绿色出行日",
+    "cityInfo": {
+       "cityName":"",
+       "cityCode":""
+    },
+     "url":"https://render.alipay.com/p/c/tr-17fufu9ml4ow",
+
+  "pageJson":[
+     {
+       "regular":["sit"],
+        "pageUrl": "pages/index/index",          
+        "locationId": "pages/index/index",
+        "locationName": "首页",
+        "templateId": "58"
+      },
+       {           
+        "pageUrl": "pages/index/index",          
+        "locationId": "pages/index/index",
+        "locationName": "首页",
+        "templateId": "18"
+      }
+  ]
+  }
+
+    
+}

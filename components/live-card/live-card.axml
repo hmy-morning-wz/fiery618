@@ -1,0 +1,12 @@
+<view >
+      <view class="live-box box-index-{{index}}" a:for="{{liveList}}">   
+       <!--<view class="box-top">     </view>  -->
+        <view class="box-card live-{{item.sellerId}}"  data-obj="{{item}}"  data-index="{{index}}" data-group="直播" onAppear="onNopAppear" onTap="onLiveTap" >  
+        <view class="live-card">   </view> 
+        
+         <tblive-card sellerId="{{item.sellerId}}" path="pages/index/index" />
+          </view>  
+  
+       </view>
+   <view class="box-bottom">     </view>  
+</view>

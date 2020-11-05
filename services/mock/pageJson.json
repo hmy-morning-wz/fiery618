@@ -1,0 +1,284 @@
+{
+  "page_title": "绿色出行日-双11测试",
+  "auditminiapp": "0",
+  "blackList": "2088102561009422,2088632978533185,2088732284489050,2088902356051993,2088002229547463",
+  "campIdList": "94183,94184,94185",
+  "sharerMinNum": 1,
+  "page": {
+    "image": "https://images.allcitygo.com/miniapp/202009/bg.png",
+    "color": "#ffffff"
+  },
+  "gameZone": {
+    "sw": "ON",
+    "title": "瓜分3000W现金-测试",
+    "desc": "累计可领金额",
+    "drawId": "202007200007300122810050S0DR",
+    "firstMoney": "20",
+    "money": "1",
+    "healthyMoney": "1"
+  },
+  "layoutOrder": "game,gifZone,shopTaskZone,flashsaleZone,live,brandList",
+  "gifZoneTitle": "实物抽奖区-测试",
+  "reachMoney": "1.99",
+  "gifZone": [
+    {
+      "prizeId": "1",
+      "title": "商品标题测试商品标题测试十四五六",
+      "desc": "补贴价99.99",
+      "type": "0",
+      "drawId": "CP1157190",
+      "image": "https://images.allcitygo.com/20200914185110315Wrs8ug.jpg",
+      "weight": "100",
+      "stock": "2",
+      "_TAG": null
+    },
+    {
+      "prizeId": "2",
+      "title": "商品标题配置处",
+      "desc": "营销词配置处",
+      "type": "0",
+      "drawId": "CP1157190",
+      "image": "https://images.allcitygo.com/20200914185730942uVAsHf.jpg",
+      "weight": "2",
+      "stock": "999",
+      "_TAG": null
+    }
+  ],
+  "shopTaskTitle": "到店红包区标题",
+  "shopTaskZone": [
+    {
+      "title": "[配置]文案",
+      "desc": "[配置]文案",
+      "sellerId": "1",
+      "image": "https://images.allcitygo.com/20200911172614388xpazF5.png",
+      "name": "[配置]文案",
+      "maxCount": "99999",
+      "url_type": null,
+      "url_path": null,
+      "url_data": null,
+      "url_remark": null,
+      "_TAG": null
+    },
+    {
+      "title": "[配置]文案",
+      "desc": "[配置]文案",
+      "sellerId": "2",
+      "image": "https://images.allcitygo.com/20200601103255027HmGslB.jpg",
+      "name": "[配置]文案",
+      "maxCount": "99999",
+      "_TAG": null
+    }
+  ],
+  "shopTaskCoupon": [
+    {
+      "prizeId": "1",
+      "weight": "1",
+      "content": "202007200007300122810050S0DR",
+      "amount": "1",
+      "_TAG": null
+    }
+  ],
+  "shareCoupon": [
+    {
+      "prizeId": "1",
+      "weight": "1",
+      "content": "202007200007300122810050S0DR",
+      "amount": "1",
+      "_TAG": null
+    },
+    {
+      "prizeId": "2",
+      "weight": "2",
+      "content": "202007200007300122810050S0DR",
+      "amount": "2",
+      "_TAG": null
+    },
+    {
+      "prizeId": "3",
+      "weight": "3",
+      "content": "202007200007300122810050S0DR",
+      "amount": "3",
+      "_TAG": null
+    }
+  ],
+  "flashsaleTitle": "优惠券秒杀标题",
+  "flashsaleZone": [
+    {
+      "title": "[配置]文案",
+      "desc": "[配置]文案",
+      "amount": "1",
+      "sellerId": "1234",
+      "image": "https://images.allcitygo.com/20200911170022930wYsUVZ.png",
+      "name": "[配置]文案",
+      "url_type": null,
+      "url_path": null,
+      "url_data": null,
+      "url_remark": null,
+      "_TAG": null
+    },
+    {
+      "title": "[配置]文案",
+      "desc": "[配置]文案",
+      "amount": "2",
+      "sellerId": "1234",
+      "image": "https://images.allcitygo.com/20200911170050608Qr0XRo.png",
+      "name": "[配置]文案",
+      "_TAG": null
+    },
+    {
+      "title": "[配置]文案",
+      "desc": "[配置]文案",
+      "amount": "33",
+      "sellerId": "1234",
+      "name": "[配置]文案",
+      "_TAG": null
+    },
+    {
+      "title": "[配置]文案",
+      "desc": "[配置]文案",
+      "amount": "999",
+      "sellerId": "1234",
+      "name": "[配置]文案",
+      "_TAG": null
+    }
+  ],
+  "liveTitle": "直播区标题1",
+  "liveTitle2": "直播区标题2",
+  "liveList": [
+    {
+      "sellerId": "69226163",
+      "name": "文案1",
+      "_TAG": null
+    },
+    {
+      "sellerId": "69226163",
+      "name": "文案2",
+      "_TAG": null
+    }
+  ],
+  "brandList": [
+    {
+      "sellerId": "92686194",
+      "name": "[配置]飞利浦",
+      "text": "[配置]文案",
+      "image": "https://images.allcitygo.com/20200526101240066kAmArL.png",
+      "url_type": "selfWebview",
+      "url_path": "https://main.m.taobao.com/?sprefer=sypc00&spm=a230r.7195193.0.0.46d4a8a6CzLXKG",
+      "url_data": "",
+      "url_remark": ""
+    },
+    {
+      "sellerId": "217101303",
+      "name": "宝洁旗舰店",
+      "text": "[配置]文案",
+      "image": "https://images.allcitygo.com/20200526101251511oxBy4J.png",
+      "url_type": "selfWebview",
+      "url_path": "https://main.m.taobao.com/?sprefer=sypc00&spm=a230r.7195193.0.0.46d4a8a6CzLXKG",
+      "url_data": "",
+      "url_remark": ""
+    },
+    {
+      "sellerId": "619123122",
+      "name": "良品铺子",
+      "text": "[配置]文案",
+      "image": "https://images.allcitygo.com/20200526101304072iNWIAX.png",
+      "url_type": "selfWebview",
+      "url_path": "https://main.m.taobao.com/?sprefer=sypc00&spm=a230r.7195193.0.0.46d4a8a6CzLXKG",
+      "url_data": "",
+      "url_remark": ""
+    },
+    {
+      "sellerId": "100004",
+      "name": "店铺名称2",
+      "text": "[配置]文案",
+      "image": "https://images.allcitygo.com/202005261013169896I2acG.png",
+      "url_type": "selfWebview",
+      "url_path": "https://main.m.taobao.com/?sprefer=sypc00&spm=a230r.7195193.0.0.46d4a8a6CzLXKG",
+      "url_data": "",
+      "url_remark": ""
+    },
+    {
+      "sellerId": "100005",
+      "name": "店铺名称1",
+      "text": "[配置]文案",
+      "image": "https://images.allcitygo.com/202005261013232057BEhzZ.png",
+      "url_type": "selfWebview",
+      "url_path": "https://main.m.taobao.com/?sprefer=sypc00&spm=a230r.7195193.0.0.46d4a8a6CzLXKG",
+      "url_data": "",
+      "url_remark": ""
+    },
+    {
+      "sellerId": "100006",
+      "name": "店铺名称2",
+      "text": "[配置]文案",
+      "image": "https://images.allcitygo.com/20200526101329094KzsQYG.png",
+      "url_type": "selfWebview",
+      "url_path": "https://main.m.taobao.com/?sprefer=sypc00&spm=a230r.7195193.0.0.46d4a8a6CzLXKG",
+      "url_data": "",
+      "url_remark": ""
+    }
+  ],
+  "backClass": [
+    {
+   
+      "shopType": "miniapp",
+      "shopAppId": "2019081966289614",
+      "sellerId": "217101303",
+      "icon_img": "https://images.allcitygo.com/20200525145642579jQQjUj.jpg",
+      "name": "宝洁官方旗舰店",
+      "taskType":"shop",
+      "taskUrlType": "h5",
+      "maxCount": "9999",
+      "taskUrl": "https://www.taobao.com"
+    },
+    {
+    
+      "shopType": "miniapp",
+      "shopAppId": "2021001127634133",
+      "sellerId": "628189716",
+      "icon_img": "https://images.allcitygo.com/20200525150245342xxk3A8.jpg",
+      "name": "百草味旗舰店",
+      "taskUrlType": "h5",
+       "taskType":"shop",
+      "maxCount": "9999",
+      "taskUrl": "https://www.taobao.com"
+    },
+    {
+    
+      "shopType": "miniapp",
+      "shopAppId": "2021001127634133",
+      "sellerId": "2",
+      "icon_img": "https://images.allcitygo.com/20200525150245342xxk3A8.jpg",
+      "name": "百草味旗舰店",
+      "taskUrlType": "h5",
+       "taskType":"shop",
+      "maxCount": "9999",
+      "taskUrl": "https://www.taobao.com"
+    },
+    {
+    
+      "shopType": "miniapp",
+      "shopAppId": "2021001127634133",
+      "sellerId": "3",
+      "icon_img": "https://images.allcitygo.com/20200525150245342xxk3A8.jpg",
+      "name": "百草味旗舰店",
+      "taskUrlType": "h5",
+       "taskType":"shop",
+      "maxCount": "9999",
+      "taskUrl": "https://www.taobao.com"
+    },
+    {
+    
+      "shopType": "miniapp",
+      "shopAppId": "2021001127634133",
+      "sellerId": "4",
+      "icon_img": "https://images.allcitygo.com/20200525150245342xxk3A8.jpg",
+      "name": "百草味旗舰店",
+      "taskUrlType": "h5",
+       "taskType":"shop",
+      "maxCount": "9999",
+      "taskUrl": "https://www.taobao.com"
+    }
+  ],
+  "ruleText": "<p>一、活动时间 2020年6月5日00:00:00-2020年6月30日23:59:59<br/>二、参与条件 仅限支付宝实名用户参加。 三、活动规则 1.活动期间用户通过完成活动任务获取抽奖次数，参与抽奖有机会获得华为P40 Pro、出行权益包、支付宝现金红包、商户优惠券中的一种，中奖用户获得的奖品类型和金额随机<br/>三、奖品说明： 奖品类型：（1）支付宝现金红包面额为0.5元；（2）华为P40Pro手机；（3）商户优惠券是活动商家自主发布的优惠券。奖品的具体使用规则、有效期等以奖品详情页面显示的为准；（4）出行权益包以实际收到奖品类型为准。<br/> 四、注意事项 1.同一支付宝账户、身份证号、手机号码、同一设备号，满足任一条件均可视为同一用户。 2.活动仅限中华人民共和国境内（仅为本规则之目的，为避免疑义，不包括香港特别行政区、澳门特别行政区和台湾地区）的支付宝实名认证用户参与。 3.如用户出现或涉嫌违法违规行为（如虚假交易、作弊、恶意套取现金、刷信等），优惠资格将被取消，已获得的优惠金额（包括已消费金额）将被收回<br/>五、测试是否联动展示</p>"
+}

@@ -1,0 +1,55 @@
+.live-box {
+  margin-top: 24rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  position: relative;
+  z-index: 2;
+}
+.box-card {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+  width: 750rpx;
+  min-height: 180rpx;
+}
+.box-card .live-card {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left:24rpx; 
+  bottom: 0rpx;
+  right: 0rpx;
+  width:702rpx; 
+  border-radius:24rpx;
+  background: white;
+  min-height: 180rpx;
+}
+.box-top 
+{
+position: relative;
+top:13rpx;
+ width:670rpx;
+height:34rpx;
+background:linear-gradient(180deg,rgba(169,172,255,1) 0%,rgba(99,69,248,1) 100%);
+border-radius:48rpx 48rpx 0px 0px;
+transform: perspective(10rpx) rotateX(1deg);
+}
+
+.box-bottom {
+  position: relative;
+  width:726rpx;
+ /* height:64rpx;*/
+  /*background:linear-gradient(180deg,rgba(181,190,255,1) 0%,rgba(104,59,248,1) 100%);*/
+  /*border-radius:0rpx 0rpx 0px 0px;*/
+  /*box-shadow:0px -1rpx 2rpx 0px rgba(171,144,255,0.5);*/
+  /*transform: perspective(10rpx) rotateX(2deg);*/
+ /* background: url("https://images.allcitygo.com/miniapp/202005/live_bottom.png?x-oss-process=image/format,webp")
+    center no-repeat;*/
+  background-size: 100% 100%;
+}
+.box-index-0 {
+  margin-top: -24rpx !important;
+}

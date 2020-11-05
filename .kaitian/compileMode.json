@@ -1,0 +1,41 @@
+{
+  "current": null,
+  "modes": [
+    {
+      "page": "pages/my/my",
+      "pageQuery": "remove=1",
+      "title": "my"
+    },
+    {
+      "page": "pages/topic/topic",
+      "pageQuery": "topicId=12343",
+      "title": "topic"
+    },
+    {
+      "page": "pages/index/index",
+      "query": "notifyParam=a%3d1%26b%3d2",
+      "title": "notifyParam"
+    },
+    {
+      "page": "pages/live/live",
+      "title": "live"
+    },
+    {
+      "page": "pages/index/index",
+      "query": "bizScenario=hyfeeds",
+      "title": "bizScenario",
+      "update": true
+    },
+    {
+      "page": "pages/webview/webview",
+      "pageQuery": "url=https://d.alipay.com/i/index.htm?iframeSrc=alipays%3A%2F%2Fplatformapi%2Fstartapp%3FappId%3D20000067%26url%3Dhttps%253A%252F%252Fqr.alipay.com%252Fcpx02952rhls2v3pfgzp576",
+      "title": "web"
+    },
+    {
+      "page": "pages/index/index",
+      "pageQuery": "",
+      "query": "clear=1",
+      "title": "clear"
+    }
+  ]
+}
